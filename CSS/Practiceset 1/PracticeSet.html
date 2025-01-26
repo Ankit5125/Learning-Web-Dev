@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css 1st Practice Set</title>
+
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            background-color: antiquewhite;
+            text-align: center;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-weight: bold;
+        }
+
+        .Outerbox{
+            width: 900px;
+            height: 200px;
+            border: 4px solid maroon;
+        }
+
+        .row1, .row2, .row3{
+            width: 900px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }  
+        .row1{
+            height: 50px;
+            background-color: #6969ff;
+        } 
+        .row2{
+            height: 100px;
+            background-color: #f8f7ff;
+        }
+        .row3{
+            height: 50px;
+            background-color: #b8b8ff;
+        }
+
+        .row1col1, .row1col2, .row1col3, .row2col, .row3col1, .row3col2{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .row1col1{
+            width: 200px;
+            height: 50px;
+            float: left;
+        }
+        .row1col2{
+            width: 300px;
+            height: 50px;
+            float: left;
+        }
+        .row1col3{
+            width: 400px;
+            height: 50px;
+            float: left;
+        }
+        .row2col{
+            width: 900px;
+            height: 100px;
+            float: left;
+        }
+        .row3col1{
+            width: 400px;
+            height: 50px;
+            float: left;
+        }
+        .row3col2{
+            width: 500px;
+            height: 50px;
+            float: left;
+        }
+    </style>
+
+</head>
+<body>
+
+    <div class="Outerbox">
+        <div class="row1">
+            <div class="row1col1">
+                Home
+            </div>
+            <div class="row1col2">
+                About
+            </div>
+            <div class="row1col3">
+                Courses
+            </div>
+        </div>
+        <div class="row2">
+            <div class="row2col">
+                Welcome to CSS Practice Set
+            </div>
+        </div>
+        <div class="row3">
+            <div class="row3col1">
+                I Love Doing
+            </div>
+            <div class="row3col2">
+                CSS
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
